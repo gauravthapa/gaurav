@@ -1,0 +1,14 @@
+{
+    "DisplayName":           "Beyond Compare",
+    "MinimumVersion":        "4.0",
+    "SupportsDiffChangeset": false,
+    "SupportsDirectoryDiff": true,
+    "DiffToolArguments":     "\"$LOCAL\" \"$REMOTE\"",
+    "MergeToolArguments":    "\"$LOCAL\" \"$BASE\" \"$REMOTE\" \"$MERGED\"",
+    "ApplicationRegistryIdentifiers": [
+        "HKEY_LOCAL_MACHINE\\Software\\Scooter Software\\Beyond Compare 4\\ExePath"
+    ],
+    "ApplicationPaths": [
+        "%ProgramW6432%\\Beyond Compare 4\\BCompare.exe",
+    ]
+}
